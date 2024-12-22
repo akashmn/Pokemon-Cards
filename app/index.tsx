@@ -1,11 +1,11 @@
-import { View, Text, StyleSheet, Platform } from 'react-native'
+import { View, Text, StyleSheet, Platform, SafeAreaView } from 'react-native'
 import PokemonCards from '@/Components/PokemonCards'
 
 export default function index() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <PokemonCards />
-    </View>
+    </SafeAreaView>
   )
 }
 
